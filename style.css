@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navigation{
+    background-color: #a06e6e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.list-itmes{
+    justify-content: space-between;
+    display: flex;
+    padding: 16px;
+}
+li{
+    list-style-type: none;
+    padding: 0 16px;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.btn{
+    background-color: aqua;
+    border: 6px;
+    border-radius: 16px;
+    padding: 8 16px;
+    font-size: 16px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #a06e6e;
+    color: rgb(247, 210, 210);
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background: url('assert/spa.jpg') no-repeat center center/cover;
+    height: 60vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.services, .about, .testimonials, .contact {
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.service-items, .testimonial-items {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.service-item, .testimonial-item {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 1rem;
+    max-width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.service-item img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: #a06e6e;
+}
+/* Contact Section */
+.Contact-haeding{
+    font-size: 55px;
+    text-align: center;
+}
+form{
+    margin-left: 33rem;
+    margin-top: 20px;
+}
+from input{
+    width: 450px;
+}
+from textarea {
+    width: 450px;
+}
+.submit-btn{
+    width: 150px;
+    height: 35px;
+    background-color: #615555;
+    color: white;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #a06e6e;
+    color: rgb(234, 180, 245);
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer p {
+    font-size: 1rem;
+}
